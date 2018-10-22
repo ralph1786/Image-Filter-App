@@ -1,19 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Merienda");
+
+body {
+  font-family: "Merienda", cursive !important;
+}
+
 #canvas {
-    margin: auto;
-    background-color: #dfdede;
-    width: 100%;
+  margin: auto;
+  background-color: #dfdede;
+  width: 100%;
 }
 
 .btn-disabled {
-    color: #fff !important;
+  color: #fff !important;
 }
 
 /* Added media query for responsiveness on smaller devices. */
-@media(max-width: 750px) {
-    .col-md-3 {
-        padding: 5px;
-    }
-    .col-md-6 {
-        padding: 5px;
-    }
+@media (max-width: 750px) {
+  .col-md-3 {
+    padding: 5px;
+  }
+  .col-md-6 {
+    padding: 5px;
+  }
 }
